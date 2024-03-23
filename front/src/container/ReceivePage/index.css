@@ -1,0 +1,51 @@
+.receive__page--body {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	padding-top: 66px;
+}
+
+.receive__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	color: #1D1D1F;
+	text-align: center;
+	font-family: Jost;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 100%; 
+}
+
+.receive__change {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 20px;
+}
+
+
+.receive__buttons{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 12px;
+}
+
+.receive__button{
+	display: flex;
+	width: 353px;
+	padding: 16px;
+	justify-content: space-between;
+	align-items: center;
+
+	border-radius: 12px;
+	background: #FFF;
+}
+
+.receive__color {
+	color: #1D1D1F; 
+}

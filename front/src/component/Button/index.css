@@ -1,0 +1,56 @@
+.btn {
+	display: flex;
+	width: 353px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 12px;
+
+	padding: 20px 140px;	
+	background:  #775CE5;
+	cursor: pointer;
+	transition: opacity 0.3s;
+}
+
+.btn:hover {
+	opacity: 0.7;
+}
+
+.btn:active {
+	opacity: 0.5;
+}
+
+.btn__outline {	
+	padding: 16px 140px;
+	background:  #fff;		
+}
+
+.btn__purple {
+	border: 1px solid  #775CE5;
+}
+
+.btn__red {	
+	border: 1px solid #F23152;	
+}
+
+.btn--text {
+	white-space: nowrap;	
+	line-height: 100%; 
+
+	color: #FFF;	
+	font-size: 16px;
+	font-weight: 500;
+}
+
+
+.btn__outline--text {	
+	font-size: 14px;	
+	font-weight: 400;
+}
+
+.btn__text--purple {
+	color: #775CE5;	
+}
+
+.btn__text--red {
+	color: #F23152;	
+}

@@ -1,0 +1,26 @@
+.form__error {
+	color: red;
+	font-size: 14px;
+}
+
+.alert--disabled {
+	display: none;
+}
+
+.alert--error {
+	font-size: 14px;
+	border-color: red;
+	color: red;
+}
+
+.alert--success {
+	font-size: 14px;
+	border-color: green;
+	color: green;
+}
+
+.alert--progress {
+	font-size: 14px;
+	border-color: yellow;
+	color: yellow;
+}

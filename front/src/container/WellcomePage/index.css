@@ -1,0 +1,112 @@
+.welcome__page {
+	border-radius: 24px;
+  background-image: url(../../../public/png/background.png);
+	background-repeat: no-repeat; 
+	
+	width: 393px;
+	height: 583px;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 100px;
+}
+
+.welcome__top {
+	width: 393px;
+	height: 583px;
+	flex-shrink: 0;
+
+	border-radius: 24px 24px 32px 32px;	
+
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+	height: 583px;
+}
+
+.welcome__text{
+	display: flex;
+	justify-content: space-between;
+}
+
+.welcome__title{
+	text-align: center;
+	font-family: Jost;
+	font-size: 42px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 100%; 
+	color:  #FFF;
+
+}
+
+.welcome__description{
+	text-align: center;
+	font-family: Jost;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 100%; 
+	color: #FFF;
+
+}
+
+.image__welcome {
+	
+	width: 50%;
+	height: 50%;
+	background-repeat: no-repeat;	
+	position: relative;
+	
+}
+
+.image__welcom--money {
+	position: absolute;
+	bottom: -422px;
+	left: -314px;
+}
+.welcome__button--block{
+	display: flex;
+	width: 353px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 12px;
+}
+
+.welcome__button {
+	display: flex;
+	padding: 20px 140px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	align-self: stretch;
+	
+	text-decoration: none;
+	border-radius: 12px;
+	color: #775CE5;
+	z-index: 9999;
+
+	transition: opacity 0.3s;
+}
+
+.welcome__button:hover {
+	opacity: 0.7;
+}
+
+.welcome__button:active {
+	opacity: 0.5;
+}
+
+.welcome__button--up{
+	
+	background: #775CE5;
+	color: white;
+}
+
+.welcome__button--in{
+	border: 1px solid #775CE5;
+}

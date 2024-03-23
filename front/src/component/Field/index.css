@@ -1,0 +1,54 @@
+.field {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 8px;
+	align-self: stretch;	
+	position: relative;
+}
+
+.field__text {
+	color: #1D1D1F;
+	font-family: Jost !important;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 100%; 
+}
+
+.field__layout {	
+	padding: 20px 16px;
+	border-radius: 12px;
+	border: 1px solid #775CE5;
+	font-size: 14px;
+	width: 352px;
+	font-family: inherit;
+}
+
+.field__gray{
+	border-radius: 12px;
+	border: 1px solid  #E9E8EB;
+	background: #FFF;
+}
+
+.field__icon {
+	width: 22px;
+	height: 22px;
+	text-indent: -9999px;
+	position: absolute;
+	top: 50% ;
+	right: 15px;
+	cursor: pointer;
+}
+
+.button__show {
+	background-image: url(../../../public/svg/password-show.svg);
+	background-repeat: no-repeat;
+}
+
+.button__hide {
+	background-image: url(../../../public/svg/password-hide.svg);
+	background-repeat: no-repeat;
+}
+

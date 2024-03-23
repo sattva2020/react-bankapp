@@ -1,0 +1,26 @@
+.send__page {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	padding-top: 60px;
+	padding-left: 20px;
+}
+
+
+.send__header {
+	display: flex;
+	justify-content: space-between;
+	gap: 12px;
+	align-items: center;
+}
+
+.send__block{
+	padding: 2px 0 0 1px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 20px;
+}
+
+
+
